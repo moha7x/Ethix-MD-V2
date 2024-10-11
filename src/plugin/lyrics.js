@@ -15,7 +15,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
 
     try {
       await m.React('🕘');
-      await m.reply('A moment, *Ethix-MD* is generating your lyrics request...');
+      await m.reply('A moment, *Mutlaq-Nasser* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Spectre|Alan Walker.');
@@ -45,7 +45,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
           {
             name: "cta_url",
             buttonParamsJson: JSON.stringify({
-              display_text: "sʜᴏᴡ 💜 ғᴏʀ ᴇᴛʜɪx-ᴍᴅ",
+              display_text: "sʜᴏᴡ 💜 ғᴏʀ ᴍᴜᴛʟᴀǫ-ɴᴀssᴇʀ",
               url: `https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S`
             })
           },
@@ -70,7 +70,7 @@ const text = m.body.slice(prefix.length + cmd.length).trim();
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴇᴛʜɪx-ᴍᴅ*"
+                  text: "> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴜᴛʟᴀǫ-ɴᴀssᴇʀ*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
